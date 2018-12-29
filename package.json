@@ -4,6 +4,7 @@
   "description": "Basic examples of the Spotify authorization flows through OAuth 2",
   "version": "0.0.2",
   "scripts": {
+    "start": "cd authorization_code && node app.js",
     "publishheroku": "cd ../ && git subtree push --prefix auth-server spotify-data-server master || true"
   },
   "dependencies": {
