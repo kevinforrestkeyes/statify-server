@@ -1,0 +1,39 @@
+#login,
+#loggedin {
+	display: none;
+}
+.text-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 500px;
+}
+body .container {
+	padding: 24px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #afe9c7;
+	height: 100vh;
+	box-sizing: border-box;
+}
+.btn.btn-primary {
+	padding: 12px;
+	border-radius: 0 24px 24px 24px;
+	display: block;
+	background-color: #fff;
+	border: none;
+	color: -webkit-link;
+	cursor: pointer;
+	text-decoration: underline;
+	font-family: Arial;
+	line-height: 20px;
+	font-weight: 400;
+	font-size: 14px;
+	margin: 12px;
+	border: 0.5px solid #daf7a6;
+}
