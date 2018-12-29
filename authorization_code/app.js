@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = 'f0794401c81242dbb6ecaa9101885cc8'; // Your client id
 var client_secret = '3f637945180b4555b392819c91052ba8'; // Your secret
-var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+var redirect_uri = 'https://statify-server.herokuapp.com/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
