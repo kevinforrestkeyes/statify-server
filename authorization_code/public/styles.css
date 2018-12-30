@@ -17,7 +17,7 @@ body .container {
 	padding: 0;
 }
 body {
-	background-color: #afe9c7;
+	background-color: #CACFEA;
 	height: 100vh;
 	box-sizing: border-box;
 }
@@ -35,5 +35,5 @@ body {
 	font-weight: 400;
 	font-size: 14px;
 	margin: 12px;
-	border: 0.5px solid #daf7a6;
+	border: 0px solid #fff;
 }
