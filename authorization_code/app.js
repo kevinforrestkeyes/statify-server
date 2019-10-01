@@ -20,7 +20,7 @@ var client_secret = process.env.SPOTIFY_CLIENT_SECRET; // Your secret
 var redirect_uri; // Your redirect uri
 if (process.env.NODE_ENV === 'production') {
   redirect_uri = "https://statify-server.herokuapp.com/callback";
-  client_url = "https://statify-client.herokuapp.com/#";
+  client_url = "https://statify-client.netlify.com/#";
 } else {
   redirect_uri = "http://localhost:8888/callback";
   client_url = "http://localhost:3000/#";
